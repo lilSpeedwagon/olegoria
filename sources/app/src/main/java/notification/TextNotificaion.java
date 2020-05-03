@@ -1,7 +1,7 @@
 package notification;
 
-import com.olegoria.notificationservice.NotificationData;
-import com.olegoria.notificationservice.NotificatorType;
+import notification_service.NotificationData;
+import notification_service.NotificatorType;
 
 import java.util.List;
 
@@ -19,7 +19,7 @@ public class TextNotificaion implements INotification {
 
     @Override
     public List<NotificatorType> getNotificatorTypes() {
-        return null;
+        return mNotificatorTypes;
     }
 
     @Override

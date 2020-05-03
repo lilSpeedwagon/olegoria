@@ -1,4 +1,4 @@
-package com.olegoria.notificationservice;
+package notification_service;
 
 public class NotificationData {
     private String mTitle;

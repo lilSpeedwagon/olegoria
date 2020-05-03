@@ -1,4 +1,4 @@
-package com.olegoria.notificationservice;
+package notification_service;
 
 import android.app.Service;
 import android.content.Intent;
